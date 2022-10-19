@@ -1,0 +1,70 @@
+section.slide{
+    background-color:#f3d52f;
+    width: 100%;
+    height:100%;
+    margin-bottom: 60px;
+    }
+    
+    .tp-caption.title h1{
+    font-size: 35px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    }
+    .tp-caption.title h3{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000;
+    }
+    
+    .tp-caption.title-white {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    }
+    
+    .tp-caption.title:after {
+    content: "";
+    border-bottom: 3px solid #f39c12;
+    width: 100px;
+    display: block;
+    margin-top: 15px;
+    }
+    
+    .tp-caption.text {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+    }
+    
+    .tp-caption.text-white {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
+    }
+    
+    .tp-caption.social-icon a {
+    font-size: 20px;
+    line-height: 10px;
+    color: #bca480;
+    padding-right: 10px;
+    border-right: 1px solid #bca480;
+    }
+    
+    .tp-caption.social-icon:last-child a {
+    border-right: none;
+    }
+    
+    .tp-caption.social-icon a:hover {
+    color: #3b3e43;
+    }
+    
+    .tp-caption .btn,
+    .tp-caption .btn:hover {
+    color: #fff;
+    }

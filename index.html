@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Cegueta.com - Portal Acessível a Deficientes Visuais.</title>
+  <meta name=Description
+    content="Seja Bem-vindo, Portal Acessível a Deficientes Visuais. Este site tem a finalidade de ajudar a todos na Internet, fornecendo Suporte online, ajudas em geral e dicas. A Equipe Cegueta disponibiliza aqui, vários programas de downloads, mural de recados e um espaço para você fazer novas amizades.">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://www.cegueta.com/assets/scss/vendors/plugins.css">
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="https://www.cegueta.com/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://www.cegueta.com/assets/css/bootsnav.css">
+  <link rel="stylesheet" href="https://www.cegueta.com/assets/js/revolutionslider/css/settings.css">
+    <link rel="stylesheet" href="https://www.cegueta.com/assets/js/jquery-confirm/css/jquery-confirm.css">
+
+  <!-- js-->
+  <!-- <script src="https://www.cegueta.com/assets/js/jquery-1.11.3.js"></script> -->
+  <script src="https://www.cegueta.com/assets/node_modules/jquery/dist/jquery.min.js"></script>
+  <script>var base_url = 'https://www.cegueta.com/';</script>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Kanit:400,500,600|Open+Sans:400,700,800" rel="stylesheet">
+  <!-- Fonts Icons -->
+  <link rel="stylesheet" type="text/css" href="https://www.cegueta.com/assets/css/font-awesome.min.css">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="https://www.cegueta.com/assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://www.cegueta.com/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16"
+    href="https://www.cegueta.com/assets/images/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.cegueta.com/assets/images/favicon/favicon.ico">
+  <link rel="manifest" href="https://www.cegueta.com/assets/images/favicon/manifest.json">
+
+</head>
+
+<body class="acessibilidade">
+  <header>
+    <div class="topbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-4">
+            <i class="fa fa-wheelchair" aria-hidden="true"></i> <strong>Acessibilidade:</strong>
+          </div>
+          <div class="col-md-2 col-sm-4 text-center">
+            <a href="#conteudo" class="scrollSuave" tabindex="1" accesskey="1" title="Pular para o conteúdo [Alt + 1]">
+              <i class="fa fa-arrow-down" title="Pular para o conteúdo" aria-hidden="true"></i> Ir ao Conteúdo</a>
+          </div>
+          <div class="col-md-2 col-sm-4 text-center">
+            <a tabindex="2" accesskey="2" title="Altro contraste [Alt + 2]" href=".wrapper" id="altocontraste"
+              onclick="window.toggleContrast()"><i class="fa fa-adjust" aria-hidden="true"></i> Alto contraste</a>
+          </div>
+          <div class="col-md-6 col-sm-12 access">
+            <ul class="listtop">
+              <li><a href=".wrapper" tabindex="3" accesskey="3" title="Altro contraste [Alt + 3]"
+                  class="linkacces j_diminuirfont"> A- Diminuir Fonte</a></li>
+              <li><a href=".wrapper" tabindex="4" accesskey="4" title="Altro contraste [Alt + 4]"
+                  class="linkacces j_aumentarfont"> A+ Aumentar Fonte</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <nav class="navbar navbar-default bootsnav">
+      <div class="container">
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+          <button type="button" aria-label="Menu Navegação" class="navbar-toggle" data-toggle="collapse"
+            data-target="#navbar-menu">
+            <i class="fa fa-bars" aria-hidden="true"></i></button>
+          <a class="navbar-brand" href="/home" title="Site Cegueta.com" tabindex="5"><img
+              src="https://www.cegueta.com/assets/images/logo.png" alt="Site Cegueta.com" title="Site Cegueta.com"></a>
+        </div>
+        <!-- End Header Navigation -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <ul class="nav navbar-nav navbar-right" data-in="slideInUp" data-out="fadeOut">
+            <li class="active"><a tabindex="7" accesskey="h" href="https://www.cegueta.com/home"
+                title="Página Principal [Alt + h] ">Home</a></li>
+            <li class=""><a tabindex="8" accesskey="b" href="https://www.cegueta.com/downloads"
+                title="Acessar Downloads [Alt + b]">Downloads</a></li>
+            <li class=""><a tabindex="9" accesskey="m" href="https://www.cegueta.com/mural"
+                title="Mural de Recados [Alt + m]">Mural de Recados</a></li>
+            <li class=""><a tabindex="10" accesskey="g" href="https://www.cegueta.com/galera-cegueta"
+                title="Galera Cegueta [Alt + g]">Galera Cegueta</a></li>
+            <li class=""><a tabindex="11" accesskey="c" href="https://www.cegueta.com/contato"
+                title="Fale Conosco [Alt + c]">Contato</a></li>
+            <li class=""><a tabindex="12" accesskey="l" href="https://www.cegueta.com/entrar"
+                title="Acessar [Alt + l]">Entrar</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Header ends-->﻿
+  <script data-ad-client="ca-pub-5838731167698519" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- Slide -->
+  <section class="slide">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h1>Cegueta.com tem a finalidade de ajudar a todos na Internet, fornecendo Suporte online, ajudas em geral e
+            dicas.</h1>
+          <h3>A Equipe Cegueta disponibiliza aqui, vários programas e downloads bem acessíveis e fáceis de utilizar. E
+            também poderá se apresentar em nosso mural de recados.</h3>
+        </div>
+        <div class="col-md-5 col-md-offset-1 col-sm-12 mt-30">
+          <figure>
+            <img class="img-responsive" src="assets/images/main-slider/blind.jpg" alt="Imagem do banner da home"
+              title="Imagem do banner home">
+            <figcaption>"Imagem com um homen com deficiência visual caminhando em uma calçada com pisos táteis de alerta
+              e direcional com sua bengala"</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Slide -->
+  <!-- Conteudo -->
+  <section id="conteudo" class="padding-half">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="col-sm-6">
+            <div class="tp-caption title">
+              <h3>Notícias do Dia!</h3>
+            </div>
+            <p class="mt-30">Ouça agora mesmo as últimas notícias do momento!</p>
+            <div>
+              <div class="btn btn-success mt-30 j_audio" data-duration="72"
+                data-src="https://www.cegueta.com/news/Cegueta%20Noticias.mp3" title="Ouvir Áudio">Reproduzir / Pausar
+                notícia destaque&nbsp;</div>
+            </div>
+            <p>Curtiu essa notícia? <a
+                href="https://api.whatsapp.com/send?text=Compartilho contigo uma das últimas notícias do Grupo Cegueta! Ouça já! mp3.cegueta.com/news">Compartilhe
+                no WhatsApp!</a></p>
+            <a href="grupo" class="btn btn-orange btn-lg mt-30" title="Cadastrar-se no Grupo Cegueta">Cadastrar-se no Grupo Cegueta!</a><br>
+          </div>
+
+          <h3>Bengala Celeta</h3>
+        </div>
+        <br>
+        <p class="mt-30">A 1ª bengala com amortecedor!</p>
+        <p class="mt-30">Curtiu? Bateu aquela curiosaidade? Conheça e adquira já a sua!</p>
+        <a href="https://www.cegueta.com/bengalaceleta" class="btn btn-orange btn-lg mt-30"
+          title="Abrirá uma janela pop up" rel="noopener noreferrer" target="_blank">Acessar Bengala Celeta!</a>
+      </div>
+<br>
+    </div>
+      <h3>PixBet! Acertou o placar? Ganhou!</h3>
+    <p class="mt-30">A mais nova forma de ganhar uma graninha pela internet!.</p>
+    <p class="mt-30">É grátis! Basta palpitar! Acertou? Ganhou!!</p>
+    <div>
+      <div class="btn btn-success mt-30 j_audio" data-duration="72"
+        data-src="https://www.cegueta.com/palpite/audios/02.mp3" title="Ouvir Áudio">Reproduzir / Pausar Convite&nbsp;
+      </div>
+    </div>
+    <a href="https://www.cegueta.com/palpite" class="btn btn-orange btn-lg mt-30" title="Abrirá uma janela pop up">Quero
+      fazer meu palpite!</a>
+    </div>
+
+    <h3>Blind Sexy</h3>
+    </div>
+    <p class="mt-30">O Sex Shop mais acessível do Brasil!.</p>
+    <p class="mt-30">A loja que acessibiliza o seu prazer!</p>
+    <div>
+      <div class="btn btn-success mt-30 j_audio" data-duration="72"
+        data-src="https://www.cegueta.com/blindsexy/audios/2.mp3" title="Ouvir Áudio">Reproduzir / Pausar Convite&nbsp;
+      </div>
+    </div>
+    <a href="https://www.cegueta.com/blindsexy" class="btn btn-orange btn-lg mt-30"
+      title="Abrirá uma janela pop up">Acessar Loja Blind Sexy!</a>
+    </div>
+
+    <h3>AudioDescrição Sem Limites</h3>
+    </div>
+    <p class="mt-30">Está procurando filmes, novelas, ou seriados que ainda não tem AudioDescrição?</p>
+    <p class="mt-30">O projeto AudioDescrição Sem Limites chega com a solução!</p>
+    <p class="mt-30">Ouça o convite e faça já seus ppedidos</p>
+    <div>
+      <div class="btn btn-success mt-30 j_audio" data-duration="72" data-src="https://www.cegueta.com/adsl/audios/1.mp3"
+        title="Ouvir Áudio">Reproduzir / Pausar convite&nbsp;</div>
+    </div>
+    <a href="https://www.cegueta.com/adsl" class="btn btn-orange btn-lg mt-30" title="Abrirá janela pop up"
+      rel="noopener noreferrer" target="_blank">Acessar AudioDescrição Sem Limites</a>
+    </div>
+
+    <h3>Locutora Paulinha Esteves - Gravações MultiPlataformas</h3>
+    </div>
+    <p class="mt-30">Ei! Desapega dessas vinhetas emendadas! Sua rádio merece super vinhetas profissionais!.</p>
+    <p class="mt-30">Você Youtuber! Deixe seu canal muito mais dinâmico com locuções reais, aumentando inscrições e
+      likes!</p>
+    <p class="mt-30">Quer demonstrações? Ouça os Spots abaixo!</p>
+    <div>
+      <div class="btn btn-success mt-30 j_audio" data-duration="72"
+        data-src="https://www.cegueta.com/locutora/audios/1.mp3" title="Ouvir Áudio">Reproduzir / Pausar spot 1&nbsp;
+      </div>
+    </div>
+    <div>
+      <div class="btn btn-success mt-30 j_audio" data-duration="72"
+        data-src="https://www.cegueta.com/locutora/audios/2.mp3" title="Ouvir Áudio">Reproduzir / Pausar spot 2&nbsp;
+      </div>
+    </div>
+    <div>
+      <div class="btn btn-success mt-30 j_audio" data-duration="72"
+        data-src="https://www.cegueta.com/locutora/audios/3.mp3" title="Ouvir Áudio">Reproduzir / Pausar spot 3&nbsp;
+      </div>
+    </div>
+    <a href="https://www.locutorapaulinhaesteves.com.br" class="btn btn-orange btn-lg mt-30"
+      title="Abrirá uma janela pop up" rel="noopener noreferrer" target="_blank">Acessar site Locutora Paulinha
+      Esteves!</a>
+    </div>
+
+
+    <h3>Suporte Cegueta!</h3>
+    </div>
+    <p class="mt-30">Realizamos acesso remoto rápido e fácil. Solicite já seu orçamento!</p>
+    <div>
+      <div class="btn btn-success mt-30 j_audio" data-duration="72"
+        data-src="http://www.cegueta.com/suporte/audios/1.mp3" title="Ouvir Áudio">Reproduzir / Pausar informações&nbsp;
+      </div>
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=5547996382928" class="btn btn-orange btn-lg mt-30"
+      title="Abrirá o Whatsapp do suporte">
+      Acessar Whatsapp do Suporte!</a>
+    </div>
+
+    <h3>Canal Coisas de Cego!</h3>
+    </div>
+    <p class="mt-30">Esse é o canal parceiro do Cegueta!.</p>
+    <p class="mt-30">Você que é viciado em novidades da tecnologia, aplicativos, dicas, esse é o canal certo!</p>
+    <p class="mt-30">Toda semana tem vídeos exclusivos, conteúdo diversificado, pra você sempre estar atualizado!.</p>
+    <div>
+      <div class="btn btn-success mt-30 j_audio" data-duration="72" data-src="https://www.cegueta.com/cdc/cdc.mp3"
+        title="Ouvir Áudio">Reproduzir / Pausar Convite&nbsp;</div>
+    </div>
+    <a href="https://www.cegueta.com/cdc" class="btn btn-orange btn-lg mt-30" title="Abrirá janela pop up"
+      rel="noopener noreferrer" target="_blank">Acessar canal Coisas de Cego!</a>
+    </div>
+
+    <h3>Grupos do WhatsApp - A febre do momento!</h3>
+    </div>
+    <p class="mt-30">Ei! Quer conhecer e participar de novos grupos do WhatsApp???</p>
+    <p>Sim! Com certeza, temos algum grupo que atende seu perfil!</p>
+    <p>Olha só Administrador! Agora você pode divulgar seu grupo aqui conosco!</p>
+    <p>é verdade! Exponha seu grupo do Whats aqui e faça ele bombar de participantes!</p>
+    <p>Já temos no total: 29 grupos!</p>
+    <p>Último grupo cadastrado: Em busca do amor, por Roberto Saem</p>
+    <a href="https://www.cegueta.com/grupos-whatsapp" class="btn btn-orange btn-lg mt-30"
+      title="Alerta! É obrigatório estar logado">Acessar grupos cadastrados</a>
+    <a href="https://www.cegueta.com/cadastre-grupos" class="btn btn-orange btn-lg mt-30"
+      title="Abrirá janela pop up com formulário" rel="noopener noreferrer" target="_blank">Quero cadastrar meu
+      grupo!</a>
+    </div>
+
+    <h3>Colabore conosco! Faça sua doação!</h3>
+    </div>
+    <p class="mt-30">Há 15 anos no ar, acreditamos que o portal é útil para você. Certo?</p>
+    <p>Vamos lá! Contribua e mantenha o site vivo! Contamos contigo!</p>
+    <a href="https://www.cegueta.com/colabore" class="btn btn-orange btn-lg mt-30"
+      title="Clique aqui para fazer sua doação">
+      Quero fazer minha doação!</a>
+    </div>
+
+    <div class="col-md-5 col-md-offset-1 topxs-50">
+      <div class="headline style-1">
+        <h4>Confira nossas</h4>
+        <h3>últimas atualizações!</h3>
+      </div>
+      <ul class="download">
+        <li><i title="Ícone de download" class="fa fa-arrow-down" aria-hidden="true"></i><a
+            title="Tutorial 2: Como ir da Ilha Continental para a Vila dos Pescadores"
+            href="https://www.cegueta.com/downloads/categoria/survive-the-wild">Tutorial 2: Como ir da Ilha Continental
+            para a Vila dos Pescadores</a></li>
+        <li><i title="Ícone de download" class="fa fa-arrow-down" aria-hidden="true"></i><a
+            title="Jaws 2022 - Última versão (Julho 2022)"
+            href="https://www.cegueta.com/downloads/categoria/leitores-de-telas">Jaws 2022 - Última versão (Julho
+            2022)</a></li>
+        <li><i title="Ícone de download" class="fa fa-arrow-down" aria-hidden="true"></i><a title="Em busca do amor"
+            href="https://www.cegueta.com/downloads/categoria/grupos-do-whatsapp">Em busca do amor</a></li>
+        <li><i title="Ícone de download" class="fa fa-arrow-down" aria-hidden="true"></i><a
+            title="A era do gelo: As aventuras de Buck"
+            href="https://www.cegueta.com/downloads/categoria/a-era-do-gelo-as-aventuras-de-buck">A era do gelo: As
+            aventuras de Buck</a></li>
+        <li><i title="Ícone de download" class="fa fa-arrow-down" aria-hidden="true"></i><a
+            title="CAPÍTULO 4: OPÇÕES PARA ASSISTIR"
+            href="https://www.cegueta.com/downloads/categoria/verdades-secretas">CAPÍTULO 4: OPÇÕES PARA ASSISTIR</a>
+        </li>
+        <li><i title="Ícone de download" class="fa fa-arrow-down" aria-hidden="true"></i><a
+            title="CAPÍTULO 3: OPÇÕES PARA ASSISTIR"
+            href="https://www.cegueta.com/downloads/categoria/verdades-secretas">CAPÍTULO 3: OPÇÕES PARA ASSISTIR</a>
+        </li>
+        <li><i title="Ícone de download" class="fa fa-arrow-down" aria-hidden="true"></i><a
+            title="Opções para assistir Cidade dos Anjos"
+            href="https://www.cegueta.com/downloads/categoria/cidade-dos-anjos">Opções para assistir Cidade dos
+            Anjos</a></li>
+        <li><i title="Ícone de download" class="fa fa-arrow-down" aria-hidden="true"></i><a
+            title="Add-on: RH Voice Letícia" href="https://www.cegueta.com/downloads/categoria/scripts-nvda">Add-on: RH
+            Voice Letícia</a></li>
+        <li><i title="Ícone de download" class="fa fa-arrow-down" aria-hidden="true"></i><a
+            title="OPÇÕES PARA ASSISTIR A Hora da Estrela"
+            href="https://www.cegueta.com/downloads/categoria/a-hora-da-estrela">OPÇÕES PARA ASSISTIR A Hora da
+            Estrela</a></li>
+        <li><i title="Ícone de download" class="fa fa-arrow-down" aria-hidden="true"></i><a
+            title="2º Episódio - Kyle XY: Opções para assistir"
+            href="https://www.cegueta.com/downloads/categoria/1-temporada-kyle-xy">2º Episódio - Kyle XY: Opções para
+            assistir</a></li>
+      </ul>
+      <a href="downloads" class="link" title="Ver todas categorias" href="">Ver todas categorias</a>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- Galera Cegueta -->
+  <section class="bluelight main padding-half">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center padding-half">
+          <h2>Galera Cegueta</h2>
+          <p>Agora você participa informando seus contatos, e ainda deixa sua apresentação em áudio!</p>
+          <p>Assim todos os internautas poderão conhecer melhor você, entrar em contato para trocar idéias, bater um
+            papo, e muito mais! </p>
+          <p><strong>Conheça alguns de nossos participantes abaixo</strong></p>
+        </div>
+        <!-- Participante -->
+        <div class="col-sm-6">
+          <section class="panel galera border-orange">
+            <header class="panel-heading box">
+              <div class="clearfix viewimg">
+                <a href="https://www.cegueta.com/uploads/usuario/eldertecladistaluiz@gmail.com/0f28e6853f669b4348ccdc8a488d3d18.jpg"
+                  title="Nome: Elder Luiz Ruas - Cidade: Monte Carlo - Estado Civil: Solteiro(a)<br>Descrição da Imagem #PraCegoVer: Estou em um stúdio de fotografias, com meu teclado a frente em uma estante.">
+                  <img
+                    src="https://www.cegueta.com/uploads/usuario/eldertecladistaluiz@gmail.com/0f28e6853f669b4348ccdc8a488d3d18.jpg"
+                    class="pull-left thumb img-circle img-responsive"
+                    alt="Nome: Elder Luiz Ruas - Clique aqui para visualizar sua foto"
+                    title="Nome: Elder Luiz Ruas - Clique aqui para visualizar sua foto" />
+                </a>
+                <div class="clear">
+                  <h5>Elder Luiz Ruas</h5>
+                  <small>Reside em: Monte Carlo - SC</small>
+                </div>
+              </div>
+            </header>
+            <div class="panel-body">
+              <div class="clear">
+                <div class="row">
+                  <p class="col-sm-6"><strong>Conhecido como:</strong> Paquinha</p>
+                  <p class="col-sm-6"><strong>Idade:</strong> 28 anos</p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-6"><strong>Estado Civil:</strong> Solteiro(a)</p>
+                  <p class="col-sm-6"><strong>Procurando:</strong> Namorado(a)</p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-12"><i class="fa fa-birthday-cake" aria-hidden="true"></i>
+                    <strong>Aniversário:</strong> 28 de junho
+                  </p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-12">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <strong>E-mail:</strong> <a
+                      href="/cdn-cgi/l/email-protection#83e6efe7e6f1f7e6e0efe2e7eaf0f7e2eff6eaf9c3e4eee2eaefade0ecee"
+                      title="Email do participante Paquinha" class="link"><span class="__cf_email__"
+                        data-cfemail="b3d6dfd7d6c1c7d6d0dfd2d7dac0c7d2dfc6dac9f3d4ded2dadf9dd0dcde">[email&#160;protected]</span></a>
+                  </p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-12">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <strong>Facebook:</strong> <a
+                      href="http://https://m.facebook.com/elder.tecladista?ref_component=mbasic_home_header&ref_page=/wap/home.php&refid=8"
+                      target="_blank" class="link"
+                      title="Facebook">https://m.facebook.com/elder.tecladista?ref_component=mbasic_home_header&ref_page=/wap/home.php&refid=8</a>
+                  </p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-12">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <strong>Instagram:</strong> <a href="http://https://www.instagram.com/elderruas/" target="_blank"
+                      class="link">https://www.instagram.com/elderruas/</a>
+                  </p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-12">
+                    <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                    <strong>Youtube:</strong> <a href="http://https://www.youtube.com/channel/UCLLKg1_o0pHUsZsXtLmvG-Q"
+                      target="_blank" class="link">https://www.youtube.com/channel/UCLLKg1_o0pHUsZsXtLmvG-Q</a>
+                  </p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-6">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=5549991202751"
+                      target="_blank">(49) 99120-2751</a>
+                  </p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-6">
+                    <i class="fa fa-skype" aria-hidden="true"></i>
+                    <strong>Skype:</strong> elder_94
+                  </p>
+                </div>
+                <p>
+                <div class="btn btn-success mt-30 j_audio" data-duration="72"
+                  data-src="uploads/usuario/eldertecladistaluiz@gmail.com/b86247a193a31f0994cbb6731b1defb9.mp3"
+                  data-idgalera="182" title="Ouvir apresentação de Elder Luiz Ruas">
+                  Ouvir apresentação
+                </div>
+                <a href="#" class="mt-40 pull-right link" title="Quantidade de reproduções da apresentação">
+                  <i class="fa fa-eye" aria-hidden="true"></i> <small class="j_contarep182">467 Reproduções</small>
+                </a>
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- Participante -->
+        <div class="col-sm-6">
+          <section class="panel galera border-orange">
+            <header class="panel-heading box">
+              <div class="clearfix viewimg">
+                <a href="https://www.cegueta.com/uploads/usuario/gabrielareisortiz@gmail.com/450e96dbc23b3be5602de5bf58be3c61.jpg"
+                  title="Nome: Gabriela Reis Ortiz - Cidade: São José - Estado Civil: Casado(a)<br>Descrição da Imagem #PraCegoVer: Estou sentada. Tenho cabelo preto e curto, acima dos ombros">
+                  <img
+                    src="https://www.cegueta.com/uploads/usuario/gabrielareisortiz@gmail.com/450e96dbc23b3be5602de5bf58be3c61.jpg"
+                    class="pull-left thumb img-circle img-responsive"
+                    alt="Nome: Gabriela Reis Ortiz - Clique aqui para visualizar sua foto"
+                    title="Nome: Gabriela Reis Ortiz - Clique aqui para visualizar sua foto" />
+                </a>
+                <div class="clear">
+                  <h5>Gabriela Reis Ortiz</h5>
+                  <small>Reside em: São José - SC</small>
+                </div>
+              </div>
+            </header>
+            <div class="panel-body">
+              <div class="clear">
+                <div class="row">
+                  <p class="col-sm-6"><strong>Conhecido como:</strong> Gabi</p>
+                  <p class="col-sm-6"><strong>Idade:</strong> 23 anos</p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-6"><strong>Estado Civil:</strong> Casado(a)</p>
+                  <p class="col-sm-6"><strong>Procurando:</strong> Amizades</p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-12"><i class="fa fa-birthday-cake" aria-hidden="true"></i>
+                    <strong>Aniversário:</strong> 22 de novembro
+                  </p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-12">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <strong>E-mail:</strong> <a
+                      href="/cdn-cgi/l/email-protection#ea8d8b8898838f868b988f839985989e8390aa8d878b8386c4898587"
+                      title="Email do participante Gabi" class="link"><span class="__cf_email__"
+                        data-cfemail="0c6b6d6e7e6569606d7e69657f637e7865764c6b616d6560226f6361">[email&#160;protected]</span></a>
+                  </p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-12">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <strong>Facebook:</strong> <a href="http://https://www.facebook.com/profile.php?id=100005079888417"
+                      target="_blank" class="link"
+                      title="Facebook">https://www.facebook.com/profile.php?id=100005079888417</a>
+                  </p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-6">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=5548991613217"
+                      target="_blank">48991613217</a>
+                  </p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-6">
+                    <i class="fa fa-skype" aria-hidden="true"></i>
+                    <strong>Skype:</strong> live:gabrielareisortiz
+                  </p>
+                </div>
+                <p>
+                <div class="btn btn-success mt-30 j_audio" data-duration="72"
+                  data-src="uploads/usuario/gabrielareisortiz@gmail.com/da3c1e5d4e11564bf6841875913560f0.mp3"
+                  data-idgalera="214" title="Ouvir apresentação de Gabriela Reis Ortiz">
+                  Ouvir apresentação
+                </div>
+                <a href="#" class="mt-40 pull-right link" title="Quantidade de reproduções da apresentação">
+                  <i class="fa fa-eye" aria-hidden="true"></i> <small class="j_contarep214">74 Reproduções</small>
+                </a>
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- /Fim dos Participantes -->
+        <div class="col-sm-12 mt-30 text-center">
+          <a href="galera-cegueta" class="btn btn-black btn-lg" title="Acessar página Galera Cegueta">Ver todos
+            participantes</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Galera Cegueta -->
+  <link rel="stylesheet" type="text/css" href="https://www.cegueta.com/assets/js/jabradoodle/jabradoodle.css">
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="https://www.cegueta.com/assets/js/jabradoodle/jabradoodle.js" type="text/javascript"></script>
+  <script>
+    $(function () {
+      $('.j_audio').jabradoodle({
+        showduration: false,
+        playtext: '',
+        pausetext: '',
+        resumetext: '',
+      });
+      $('.j_audio').one('click', function () {
+        var id = $(this).data('idgalera');
+        $.post(base_url + 'galeracegueta/get_cont', { id: id }, function (resp) {
+          $('.j_contarep' + id).text(resp);
+        });
+        return false;
+      });
+    });
+  </script>
+  <footer class="padding-half">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <ul class="nav nav-pills">
+            <li class="active"><a accesskey="h" href="https://www.cegueta.com/home"
+                title="Página Principal [Alt + h] ">Home</a></li>
+            <li class=""><a accesskey="b" href="https://www.cegueta.com/downloads"
+                title="Acessar Downloads [Alt + b]">Downloads</a></li>
+            <li class=""><a accesskey="m" href="https://www.cegueta.com/mural" title="Mural de Recados [Alt + m]">Mural
+                de Recados</a></li>
+            <li class=""><a accesskey="m" href="https://www.cegueta.com/galera-cegueta"
+                title="Galera Cegueta [Alt + g]">Galera Cegueta</a></li>
+            <li class=""><a accesskey="c" href="https://www.cegueta.com/contato"
+                title="Fale Conosco [Alt + c]">Contato</a></li>
+            <li class=""><a accesskey="l" href="https://www.cegueta.com/entrar" title="Acessar [Alt + l]">Entrar</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2 text-right">
+          <i class="fa fa-arrow-up" title="Voltar ao Topo" aria-hidden="true"></i>
+          <a href='.wrapper' class="back-to" title="Voltar para o topo da página"> Voltar ao Topo</a>
+          <p class="text-center">Siga-nos</p>
+          <ul class="social">
+            <li><a href="https://www.fb.me/sitecegueta" title="Acesse Facebook" target="_blank"><i
+                  class="fa fa-facebook" aria-hidden="true"></i></li>
+            <li><a href="https://www.twitter.com/sitecegueta" title="Acesse Twitter" target="_blank"><i
+                  class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 text-left">
+          <p>Cegueta.com - &copy; 2022 - Todos os direitos reservados.</p>
+        </div>
+        <div class="col-md-4 text-right">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <!-- img jquery -->
+  <link rel="stylesheet" type="text/css" href="https://www.cegueta.com/assets/css/shadowbox/shadowbox.css">
+  <script type="text/javascript" src="https://www.cegueta.com/assets/js/shadowbox/shadowbox.js"></script>
+  <script type="text/javascript">
+    Shadowbox.init();   
+  </script>
+  <script src="https://www.cegueta.com/assets/node_modules/tether/dist/js/tether.min.js"></script>
+  <script src="https://www.cegueta.com/assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://www.cegueta.com/assets/js/bootsnav.js"></script>
+  <script src="https://www.cegueta.com/assets/js/functions.js"></script>
+  <script src="https://www.cegueta.com/assets/js/vanilla.js"></script>
+  <script src="https://www.cegueta.com/assets/js/sond.js"></script>
+  <script src="https://www.cegueta.com/assets/js/jquery-confirm/js/jquery-confirm.js"></script>
+</body>
+
+</html>
